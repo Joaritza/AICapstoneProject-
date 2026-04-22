@@ -4,21 +4,20 @@ A production-ready Python chatbot that analyzes vegan ingredients, suggests alte
 
 ## 🎯 Project Status
 
-**Progress: 50% Complete** (Phases 1-4 done, UI in progress)
 
 ### Completed Phases
 - ✅ Phase 1: Project Foundation (config, logging, exceptions)
 - ✅ Phase 2: Data Source Integration (USDA, Spoonacular, Vegan DB)
 - ✅ Phase 3: Tool Functions (ingredient, recipe, nutrition, meal planning)
 - ✅ Phase 4: LangChain Agent Architecture (router agent, memory, synthesizer)
+- ✅ Phase 5: Streamlit UI Enhancement (chat interface, nature theme, preferences, history)
 
 ### In Progress
-- 🔄 Phase 5: Streamlit UI (chat interface, settings, preferences)
+- 🔄 Phase 6: Error Handling & Robustness (API rate limits, timeouts, graceful degradation)
 
 ### Coming Soon
-- Phase 6: Error Handling & Robustness
-- Phase 7: Testing & Quality Assurance
-- Phase 8: Documentation & Demo Video
+- Phase 7: Testing & Quality Assurance (unit/integration tests, coverage targets)
+- Phase 8: Documentation & Demo Video (API docs, demo video, GitHub CI/CD)
 
 ## 📋 Features
 
@@ -78,6 +77,25 @@ streamlit run ui/app.py
 ```
 
 The chatbot will be available at `http://localhost:8501`
+
+### Using the UI
+
+**Quick Start:**
+1. Click one of 8 suggested prompts, or type your question
+2. View response with multi-source data
+3. Continue conversation (10-turn memory)
+
+**Settings (Sidebar):**
+- **Preferences Tab**: Set dietary restrictions, cuisines, protein goals, budget
+- **History Tab**: View conversation, export as JSON, clear history
+- **About Tab**: View version and technologies
+
+**Features:**
+- 🌱 Nature-themed UI with forest green palette
+- 💬 Chat with user/assistant avatars
+- 📝 Export conversations for analysis
+- ⚙️ Customize user preferences
+- 💡 8 quick-start prompts for new users
 
 ## 🏗️ Architecture
 
@@ -152,16 +170,19 @@ Data Access Layer
 - ✅ Type hints throughout
 - ✅ Separation of concerns
 
-### User Experience (10 pts) → 8-10/10 🔄
-- ✅ Streamlit chat interface
-- 🔄 Nature-themed styling (in progress)
-- ✅ Settings and preferences panel
+### User Experience (10 pts) → 9-10/10 ✅
+- ✅ Streamlit chat interface with message avatars
+- ✅ Nature-themed styling (forest green palette)
+- ✅ Settings and preferences panel (4 categories)
+- ✅ Conversation history with export/import
+- ✅ Quick-start prompts (8 suggested queries)
 - ✅ Error message guidance
 
-### Documentation (5 pts) → 4-5/5 🔄
+### Documentation (5 pts) → 4-5/5 ✅
 - ✅ Code comments and docstrings
 - ✅ Architecture documentation
-- 🔄 README (this file)
+- ✅ README (this file) - updated with Phase 5
+- ✅ Phase 5 completion guide
 - 🔄 API examples and usage
 
 ## 🔧 Configuration
