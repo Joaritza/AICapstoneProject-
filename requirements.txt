@@ -1,0 +1,32 @@
+# AI & Orchestration
+langchain>=0.1.0
+langchain-openai>=0.0.8
+openai>=1.0.0
+
+# Data Fetching
+requests>=2.30.0
+httpx>=0.24.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Database & Caching
+sqlalchemy>=2.0.0
+python-dotenv>=1.0.0
+
+# UI
+streamlit>=1.30.0
+streamlit-chat>=0.1.0
+
+# Utilities
+pydantic>=2.0.0
+python-dateutil>=2.8.0
+
+# Development & Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-asyncio>=0.21.0
+black>=23.10.0
+flake8>=6.0.0
+mypy>=1.5.0
